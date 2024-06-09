@@ -20,7 +20,7 @@ function App() {
   const [selected, setSelected] = useState('business'); // Default to 'general' category
 
   const fetchArticles = async (category) => {
-    const url = `https://newsapi.org/v2/top-headlines?category=${category}&apiKey=${ApiKey}`;
+    const url = `https://newsapi.org/v2/top-headlines?category=${category}&apiKey=e6eafc17cdd84f858b9ded78440eb83e`;
     try {
       const response = await fetch(url);
       if (!response.ok) {
